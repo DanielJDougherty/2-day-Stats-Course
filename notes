@@ -1,0 +1,31 @@
+Class Notes:
+
+instructor
+
+Check from DC - 7 Startups
+
+Supervised Learning = AI
+un supervised - CX find like stuff
+
+Statistic is a Function of a data
+Descriptive statistics - mean, median, skewness… Properties of the Distro
+Inferential statistics - hypothesis testing, interval estimation… mix models and data.  know which factors in matrix is most impactful to target
+Predictive analytics - supervised learning: regression, classification… - Don't care what is related, but will best match. Most certainty
+Prescriptive analytics - unsupervised learning, recommender systems… - mix of infer and predict - Recommendation engines
+
+
+Sample Space:
+  Example (six sided Die)
+  X1 - x2 - x3 - X4, X5, X6
+  1 of 6 probablity if it's a fair Die 
+  Proper event can not exist outside of Sample space
+
+  Outcomes:
+
+  Event: examples in cards - Half Heads, Odds, Spades
+
+LEARN  Set operations: THIS IS HOW YOU GET TO LAW OF probablity
+  A U B  - A unioned with B
+  Prob Broncos are in super bowl and I am watching
+  Prob of either happening - then prob of both happening
+  Intersection is upside down U

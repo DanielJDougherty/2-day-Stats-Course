@@ -1,0 +1,20 @@
+Can you demonstrate De Morgan’s laws in Python?
+
+A random variable XX is a function that maps outcomes ss from its sample space SS onto the real numbers x∈Rx∈R, i.e.,
+I rolled my die ten times woudl be x1 x2 x3 x4 x5 x6...
+
+
+
+a = set(["A","B","C","D"])
+b = set(["C","D","E","F"])
+sample_space = set(["A","B","C","D","E","F","G"]
+
+>>> a.intersection(b)
+set(['C', 'D'])
+>>> a.difference(b)
+set(['A', 'B'])
+>>> a.union(b))
+set(['A', 'B', 'C', 'D', 'E', 'F'])
+>>> complement_a = sample_space.difference(a)
+
+Random variable is a container - watch this video Random variables (Khan academy)
