@@ -1,3 +1,6 @@
+
+_version_ = u`1.0.1`
+
 Can you demonstrate De Morgan’s laws in Python?
 
 A random variable XX is a function that maps outcomes ss from its sample space SS onto the real numbers x∈Rx∈R, i.e.,

@@ -2,10 +2,10 @@ Class Notes:
 
 instructor
 
-Check from DC - 7 Startups
+Chuck from DC - 7 Startups
 
 Supervised Learning = AI
-un supervised - CX find like stuff
+unsupervised - CX Clusters
 
 Statistic is a Function of a data
 Descriptive statistics - mean, median, skewness… Properties of the Distro
@@ -17,15 +17,38 @@ Prescriptive analytics - unsupervised learning, recommender systems… - mix of 
 Sample Space:
   Example (six sided Die)
   X1 - x2 - x3 - X4, X5, X6
-  1 of 6 probablity if it's a fair Die 
+  1 of 6 probability if it's a fair Die
   Proper event can not exist outside of Sample space
 
   Outcomes:
 
   Event: examples in cards - Half Heads, Odds, Spades
 
-LEARN  Set operations: THIS IS HOW YOU GET TO LAW OF probablity
+LEARN  Set operations: THIS IS HOW YOU GET TO LAW OF probability
   A U B  - A unioned with B
   Prob Broncos are in super bowl and I am watching
   Prob of either happening - then prob of both happening
   Intersection is upside down U
+
+
+
+  Can you demonstrate De Morgan’s laws in Python?
+
+  A random variable XX is a function that maps outcomes ss from its sample space SS onto the real numbers x∈Rx∈R, i.e.,
+  I rolled my die ten times woudl be x1 x2 x3 x4 x5 x6...
+
+
+
+  a = set(["A","B","C","D"])
+  b = set(["C","D","E","F"])
+  sample_space = set(["A","B","C","D","E","F","G"]
+
+  >>> a.intersection(b)
+  set(['C', 'D'])
+  >>> a.difference(b)
+  set(['A', 'B'])
+  >>> a.union(b))
+  set(['A', 'B', 'C', 'D', 'E', 'F'])
+  >>> complement_a = sample_space.difference(a)
+
+  Random variable is a container - watch this video Random variables (Khan academy)
