@@ -1,0 +1,35 @@
+
+Order of Testing Steps: 
+
+Hypothesis testing
+
+0 Pose your question (“Is this coin fair?”)
+
+1 Find the relevant population (“‘Flip results’ from this coin”) How do you relate the Q to the data
+
+2 Specify a null hypothesis H0H0 (“The chance of heads is 50%”) - have to disprove the null, it's the opposite of what you are looking for 
+
+3 Choose test statistic informing H0H0 (“The number of heads observed”)
+
+4 Collect data (“Flip the coin nn times”)
+
+5 Calculate the test statistics (“Count the total heads flipped”)
+
+6 Reject the null hypothesis if the test statistic looks “strange” compared to its sampling distribution under the null hypothesis; otherwise, fail to reject the null hypothesis
+
+
+
+
+Numerical Optimization
+	Maximum Likelihood
+	Least Squares
+	Expectation Maximization (EM)
+Simulation of Null Distributions
+	Bootstrapping
+	Permutation Testing
+	Monte Carlo Methods
+Estimation of Posterior Distributions
+Markov Chain Monte Carlo (MCMC)
+	Variational Methods
+Nonparametric Estimation
+	Bayesian Nonparametrics

@@ -1,0 +1,63 @@
+exponetial distrobutioms used for how long unitl next agent/customer quits
+
+
+
+go do this - cluster Dave W's Folks. 
+
+Unupervised Learning
+When you’re not trying to predict a target YY, but just seeking to uncover patterns and structures between the features XX, the problem is referred to as Unsupervised Learning. The two primary areas of unsupervised learning are
+
+Clustering: e.g., hierarchical, k-means
+Dimension reduction: e.g., PCA, SVD, NMF
+
+https://docs.aws.amazon.com/sagemaker/latest/dg/algo-kmeans-tech-notes.html
+
+http://www.business-science.io/business/2016/08/07/CustomerSegmentationPt1.html
+
+
+https://cdn2.hubspot.net/hub/58820/file-15751967-htm/newsletters/mr_best_practices/mrp_0408_segmentation_analysis.htm
+
+
+Assumptions
+The specification here actually entails many assumptions:
+
+Fixed and Constant XX
+
+The XX are assumed to be measured exactly without error
+
+Independent Errors/Outcomes ?/Y?/Y
+
+The final value for any YiYi (or equivalently, ?i?i) can not be dependent on any other YjYj or ?j?j, j?ij?i
+
+Linear Model Form
+
+The linear relationships as specified by the model are correct. This is equivalent to having Unbiased Errors. I.e., the expected value of the error ?i?i is 0 for all levels of XX.
+
+While only linear forms are allowed, the forms are only linear in the model coefficients (not the features). I.e., any features (e.g., non-linear functions of features like polynomials or spline basis functions) are permissible.
+
+Normal Errors
+
+The errors ?i?i around XßXß are normally distributed
+
+Homoscedastic Errors
+
+The errors ?i?i have constant variance, s2s2, for all levels of XX.
+
+Full Rank of XX
+
+The features are not “redundant”; and, being nearly so hurts model performance.
+
+Fortunately, this model can still be effective when some of the assumptions do not fully hold. In addition, there are methods available to help address and correct failures of the assumptions.
+
+Assumptions play a major statistical inference problems (i.e., association studies), but are less relevant in prediction contexts where it doesn’t matter how or why it works – just whether or not it does. As a result, machine learning has been able to produce creative and powerful alternatives to the linear regression model shown above. E.g., k-nearest neighbors, random forests, gradient boosting, support vector machines, and neural networks.
+
+Evaluation Metrics
+Regression
+
+In regression contexts the fit of the model to the data can be assessed using the MSE, from above, or the root mean squared error (RMSE)
+
+for Reggie - https://research.hubspot.com/topic-clusters-seo
+
+
+
+

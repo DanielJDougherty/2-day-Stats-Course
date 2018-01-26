@@ -1,7 +1,6 @@
-print "Hello World!"
-print "Hello Again"
-print "I like typing this."
-print "This is fun."
-print 'Yay! Printing.'
-print "I'd much rather you 'not'."
-print 'I "said" do not touch this.'
+
+A = {1 , 2 , 3 , 4}
+B = {4, 5 , 3, 1, 8}
+
+A.union(B)
+print(A ^ B)
